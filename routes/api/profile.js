@@ -304,7 +304,7 @@ router.delete(
           res.json({ success: true });
         });
       })
-      .catch(err => res.status(404).res.json(err));
+      .catch(err => res.status(404).json(err));
   }
 );
 
