@@ -2,7 +2,6 @@ import axios from "axios";
 import {
   GET_PROFILE,
   PROFILE_LOADING,
-  PROFILE_NOT_FOUND,
   CLEAR_CURRENT_PROFILE
 } from "./types";
 
